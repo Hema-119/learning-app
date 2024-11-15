@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Learning App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Language Learning App</h1>
+  </header>
+
+  <section id="flashcards-section">
+    <h2>Flashcards</h2>
+    <div id="flashcard">
+      <div id="word"></div>
+      <div id="translation" class="hidden"></div>
+    </div>
+    <button id="flip-card-btn">Flip Card</button>
+    <button id="next-card-btn">Next Card</button>
+  </section>
+
+  <section id="quiz-section">
+    <h2>Quiz</h2>
+    <div id="quiz-question"></div>
+    <button id="option1"></button>
+    <button id="option2"></button>
+    <button id="option3"></button>
+    <button id="option4"></button>
+    <p id="quiz-result"></p>
+  </section>
+
+  <section id="audio-section">
+    <h2>Pronunciation Practice</h2>
+    <button id="audio-btn">Listen to Pronunciation</button>
+  </section>
+
+  <section id="progress-section">
+    <h2>Progress Tracker</h2>
+    <p>Words Learned: <span id="words-learned">0</span></p>
+    <p>Quiz Score: <span id="quiz-score">0</span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
